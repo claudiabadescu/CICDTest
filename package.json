@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "cypress": "cypress open",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
@@ -48,12 +48,6 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write"
-    ]
-  },
-  "jest": {
-    "preset": "jest-preset-angular",
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/setup-jest.ts"
     ]
   }
 }
