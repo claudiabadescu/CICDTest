@@ -49,5 +49,11 @@
       "eslint --fix",
       "prettier --write"
     ]
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setup-jest.ts"
+    ]
   }
 }
