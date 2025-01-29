@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-
-console.log('Ello')
-if (true) {
-}
 </script>
 
 <template>
@@ -18,7 +14,7 @@ if (true) {
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="OMG it worked??!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
